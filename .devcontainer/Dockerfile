@@ -5,7 +5,7 @@
 
 # To fully customize the contents of this image, use the following Dockerfile instead:
 # https://github.com/microsoft/vscode-dev-containers/tree/v0.106.0/containers/debian-9-git/.devcontainer/Dockerfile
-FROM mcr.microsoft.com/vscode/devcontainers/base:0-debian-9
+FROM mcr.microsoft.com/vscode/devcontainers/base:0-debian-10
 
 # ** [Optional] Uncomment this section to install additional packages. **
 #
