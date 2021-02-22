@@ -1,9 +1,9 @@
 __gcloud_project_ps1() {
-    if test -d "/root/.config/gcloud"; then
+    if test -d "/$HOME/.config/gcloud"; then
         CONTEXT="(none)"
 
-        if test -f "/root/.config/gcloud/active_config"; then
-            CONTEXT=$(cat /root/.config/gcloud/active_config)
+        if test -f "/$HOME/.config/gcloud/active_config"; then
+            CONTEXT=$(cat /$HOME/.config/gcloud/active_config)
         fi
 
         echo -e "${CYAN}gcp:${CONTEXT} "
